@@ -1,0 +1,24 @@
+{% extends 'base/base.html'%}
+{% load static %}
+{% load crispy_forms_tags %} 
+
+{% block 'body' %}
+<div class="text-center">
+    <main class="form-signin">
+        <img class="mb-4" src="{% static 'images/logo.png'%}" alt="" width="72" height="57">
+        <form action="" method="post">
+            {% csrf_token %}
+            {{login_form|crispy}} 
+        <button class="w-100 btn btn-lg btn-danger" type="submit">Sign In</button>
+        <p> </p>
+        <p><class="text-black">Don't have an account? </a><a href="{% url 'register' %}" class="text-red">Sign up</a></p> 
+            <p class="mt-5 mb-3 text-muted">Copyright © 2023 AutoMax</p>
+        </form>
+    </main>
+</div>
+{% endblock %}
+
+{% block 'footer' %}
+{% endblock %}
+
+
