@@ -1,0 +1,7 @@
+CAR_BRANDS=[
+    ('audi','Audi'),('bmw','BMW'),('mercedes','Mercedes'),('volkswagen','Volkswagen'),('porsche','Porsche'),('opel','Opel'),('renault','Renault'),('peugeot','Peugeot'),('citroen','Citroen'),('fiat','Fiat'),('alfa-romeo','Alfa Romeo'),('lancia','Lancia'),('toyota','Toyota'),('honda','Honda'),('nissan','Nissan'),('mazda','Mazda'),('mitsubishi','Mitsubishi'),('subaru','Subaru'),('suzuki','Suzuki'),('hyundai','Hyundai'),('kia','Kia'),('chevrolet','Chevrolet'),('ford','Ford'),('chrysler','Chrysler'),('dodge','Dodge'),('jeep','Jeep'),('tesla','Tesla'),('volvo','Volvo'),('saab','Saab'),('skoda','Skoda'),('seat','Seat'),('jaguar','Jaguar'),('land-rover','Land Rover'),('mini','Mini'),('lexus','Lexus'),('infinity','Infinity'),('hummer','Hummer'),('lada','Lada'),('lamborghini','Lamborghini'),('maserati','Maserati'),('bentley','Bentley'),('ferrari','Ferrari'),('aston-martin','Aston Martin'),('rolls-royce','Rolls Royce'),('bugatti','Bugatti'),('lotus','Lotus'),('pontiac','Pontiac'),('cadillac','Cadillac'),('lincoln','Lincoln'),('mercury','Mercury'),('gmc','GMC'),('buick','Buick'),('saturn','Saturn'),('acura','Acura'),('daihatsu','Daihatsu'),('rover','Rover'),('saipa','Saipa'),('zotye','Zotye'),('yamaha','Yamaha'),('other','Other')
+]
+
+TRANSMISSION_OPTIONS=[
+    ('manual','Manual'),('automatic','Automatic'),('semi-automatic','Semi-Automatic')
+]
