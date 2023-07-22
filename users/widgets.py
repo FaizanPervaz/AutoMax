@@ -3,7 +3,8 @@ from django.utils.safestring import mark_safe
 
 class CustomPictureImageFieldWidget(widgets.FileInput):
     def render(self, name, value, attrs=None, **kwargs):
-        default_html = super().render(name,value,attrs,**kwargs)
-        if value and hasattr(value,'url'):
+        default_html = super().render(name, value, attrs, **kwargs)
+        img_html = ''  # Declare and initialize the img_html variable here
+        if value and hasattr(value, 'url'):
             img_html = mark_safe(f'<img src="{value.url}" width="200px" />') 
         return f'{img_html} {default_html}'
